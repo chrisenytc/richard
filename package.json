@@ -1,0 +1,30 @@
+{
+  "name": "richard",
+  "version": "1.0.0",
+  "description": "A bot to search for today's risotto at Florida restaurant",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/chrisenytc/richard.git"
+  },
+  "keywords": [
+    "richard",
+    "food",
+    "bot",
+    "risotto"
+  ],
+  "author": "Christopher EnyTC <chris@enytc.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chrisenytc/richard/issues"
+  },
+  "homepage": "https://github.com/chrisenytc/richard#readme",
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "express": "^4.14.0",
+    "superagent": "^2.0.0"
+  }
+}
