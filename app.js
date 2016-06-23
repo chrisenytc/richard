@@ -1,10 +1,13 @@
 var express = require('express');
+var favicon = require('serve-favicon');
 var request = require('superagent');
 var cheerio = require('cheerio');
 var app = express();
 // Configs
 var port = process.env.PORT || 3000;
 var url = 'http://restauranteflorida.com.br/pratododia.php';
+
+app.use(favicon(__dirname + '/favicon.ico'));
 
 app.get('/', function (req, res) {
 	return request
