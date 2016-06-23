@@ -9,7 +9,7 @@ var url = 'http://restauranteflorida.com.br/pratododia.php';
 
 app.use(favicon(__dirname + '/favicon.ico'));
 
-app.get('/', function (req, res) {
+app.all('/', function (req, res) {
 	return request
 		.get(url)
 		.end(function(err, response){
